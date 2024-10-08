@@ -11,7 +11,7 @@ type LandingButtonProps = {
     children: React.ReactNode
 }
 
-export default function LandingButton ({ width, height, fontSize=16, color='white', children }: LandingButtonProps) {
+export const LandingButton = ({ width, height, fontSize=16, color='white', children }: LandingButtonProps) => {
 
     const buttonStyle = {
         height: height,
