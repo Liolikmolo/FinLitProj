@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./register-page.module.scss"
-import { LandingButton } from "@/shared/ui/buttons";
+import { LandingButton } from "@/shared/ui";
 export const RegisterPage = () => {
     return (
         <div className={styles.registrationWindow}>
