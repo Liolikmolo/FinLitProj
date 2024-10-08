@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./login-page.module.scss"
+import styles from "./login-page.module.scss";
 import Link from 'next/link';
 import LandingButton from "@/shared/ui/buttons/landing-button/landing-button";
 
