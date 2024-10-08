@@ -17,7 +17,7 @@ export const LoginPage = () => {
                     <input className={styles.fillItem} type="password" name="password" placeholder="Ваш пароль"/>
                 <h2 className={styles.welcome}>Снова здравствуй!</h2>
                 <Link className={styles.confirm} href='/profilePage'>
-                <LandingButton width={200} height={80} fontSize={20}>Подтвердить</LandingButton>
+                <LandingButton width={170} height={60} fontSize={20}>Подтвердить</LandingButton>
                 </Link>
             </form>
         </div>
