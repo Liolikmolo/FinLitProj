@@ -1,4 +1,5 @@
 import prisma from '@/lib/prisma';
+import Landing from '@/pages/landing-page/landing-page';
 
 export default async function Home() {
 	const data = await prisma.question.findMany();
@@ -7,5 +8,10 @@ export default async function Home() {
 		return text;
 	});
 
-	return <h1>{content}</h1>;
+	return (
+		<>
+			<Landing />
+			<h1>{content}</h1>
+		</>
+	);
 }

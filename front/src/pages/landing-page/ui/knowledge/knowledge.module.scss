@@ -1,0 +1,248 @@
+.knowledgeWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 67px;
+	padding-bottom: 50px;
+	border: none;
+	border-radius: 0 0 80px 80px;
+	position: relative;
+	background-color: white;
+}
+
+.objects {
+	width: 1160px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.whatKnowledge {
+	margin-top: 66px;
+	margin-bottom: 26px;
+	text-align: center;
+	width: 665px;
+	height: 92px;
+	font-size: 46px;
+	line-height: 46px;
+	font-weight: 100;
+}
+
+.baseKnowledge {
+	display: flex;
+	align-items: center;
+	border: none;
+	border-radius: 48px;
+	background-color: #eaf2f5;
+	height: 396px;
+	width: 1160px;
+}
+
+.programmerImage {
+	align-self: flex-end;
+	margin-left: 123px;
+}
+
+.bKText {
+	display: grid;
+	grid-template-rows: 55px 55px 55px;
+	color: white;
+	margin-right: 106px;
+	margin-left: 60px;
+	margin-top: 15px;
+}
+
+/* DIV Text-Elements */
+
+.Row {
+	display: flex;
+}
+
+.progLanguage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 311px;
+	height: 45px;
+	border: none;
+	border-radius: 44px;
+	background-color: #5096ff;
+	margin-right: 10px;
+}
+
+.networks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 44px;
+	width: 89px;
+	height: 45px;
+	background-color: #ffb359;
+}
+
+/* Second Row */
+
+.bd {
+	width: 151px;
+	height: 45px;
+	background-color: #ff6f50;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 44px;
+	margin-right: 10px;
+}
+
+.frameworks {
+	width: 277px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 44px;
+	background-color: #4bd071;
+}
+
+/* Third Row */
+
+.testing {
+	width: 258px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 44px;
+	background-color: #50c0ff;
+	margin-right: 10px;
+}
+
+.docker {
+	width: 95px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 44px;
+	background-color: #4b77b9;
+	margin-right: 10px;
+}
+
+.git {
+	width: 94px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 44px;
+	background-color: #af93ff;
+}
+
+/* Paragraph */
+.minKnowledge {
+	color: #22253b;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+/* A group of DIVs about our education */
+
+.ourEducation {
+	text-align: center;
+	width: 598px;
+	height: 92px;
+	font-size: 45px;
+	margin-top: 78px;
+	font-weight: 100;
+}
+
+.advantagesTop {
+	display: grid;
+	grid-template-columns: repeat(4, 270px);
+	grid-template-rows: auto auto;
+	gap: 27px;
+}
+
+.advantages {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 254px;
+	border: none;
+	border-radius: 30px;
+	background-color: #eaf2f5;
+	text-align: center;
+}
+
+.advantagesBottom {
+	display: grid;
+	grid-template-columns: repeat(2, 270px);
+	gap: 27px;
+}
+
+.icons {
+	margin-top: 52px;
+}
+
+.iconsCalendar {
+	margin-top: 45px;
+}
+
+/* Title */
+
+.title {
+	font-size: 16px;
+	line-height: 18px;
+	width: 166px;
+	height: 37px;
+}
+
+/* Descriptions */
+
+.descriptionFirst {
+	font-size: 13px;
+	line-height: 15px;
+	width: 200px;
+}
+
+.descriptionSecond {
+	font-size: 13px;
+	line-height: 15px;
+	width: 200px;
+}
+
+.descriptionThird {
+	font-size: 13px;
+	line-height: 15px;
+	width: 180px;
+}
+
+.descriptionFourth {
+	font-size: 13px;
+	line-height: 15px;
+	width: 128px;
+}
+
+.descriptionFifth {
+	font-size: 13px;
+	line-height: 15px;
+	width: 140px;
+}
+
+.descriptionSixth {
+	font-size: 13px;
+	line-height: 15px;
+	width: 230px;
+}
+
+.descriptionSeventh {
+	font-size: 13px;
+	line-height: 15px;
+	width: 170px;
+}

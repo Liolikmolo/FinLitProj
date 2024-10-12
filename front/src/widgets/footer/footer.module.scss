@@ -1,0 +1,166 @@
+.footer {
+	width: 1400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footerObjects {
+	width: 1160px;
+}
+
+.warningContainer {
+	margin: 50px auto;
+	border-radius: 30px;
+	width: 1160px;
+	height: 218px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #eaf2f5;
+}
+
+.warning {
+	font-size: 17px;
+	width: 600px;
+	margin: auto -50px;
+}
+
+.information {
+	display: flex;
+	align-items: flex-start;
+	border-bottom: solid #d8d8d8;
+}
+
+.links_school {
+	display: flex;
+	flex-direction: column;
+	margin-top: -40px;
+}
+
+.school_container {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 87.16px;
+	height: 32px;
+	padding-right: 20px;
+}
+
+.school {
+	font-size: 16px;
+	color: #8e8e8e;
+	width: 151px;
+	height: 57px;
+}
+
+.soical_media_links {
+	margin-left: 5px;
+	margin-top: 13px;
+}
+
+.social_media {
+	margin-right: 17px;
+	cursor: pointer;
+	filter: drop-shadow(0 0 0 transparent);
+	transition: filter 0.3s;
+	&:hover {
+		animation: shadow-hover 0.3s forwards;
+	}
+	&:not(:hover) {
+		animation: shadow-unhover 0.3s forwards;
+	}
+}
+
+/* Animation for social media links */
+
+@keyframes shadow-hover {
+	0% {
+		filter: drop-shadow(0 0 0 transparent);
+	}
+	100% {
+		filter: drop-shadow(0 0 20px #38bff2);
+	}
+}
+
+@keyframes shadow-unhover {
+	0% {
+		filter: drop-shadow(0 0 20px #38bff2);
+	}
+	100% {
+		filter: drop-shadow(0 0 0 transparent);
+	}
+}
+
+.linksUl {
+	margin-left: 420px;
+	margin-top: -10px;
+}
+
+.linksLi {
+	list-style-type: none;
+	font-size: 13px;
+	padding-bottom: 20px;
+}
+
+.links {
+	cursor: pointer;
+	transition: 0.2s;
+	text-decoration: none;
+	color: #000;
+	&:hover {
+		color: #f15525;
+	}
+}
+
+.contact_info {
+	margin-left: 150px;
+}
+
+.e_mail {
+	text-decoration: none;
+	color: black;
+	transition: color 0.2s;
+	&:hover {
+		color: #38bff2;
+	}
+}
+
+.e_mail .tel_number {
+	color: #38bff2;
+}
+
+.organization {
+	color: #8e8e8e;
+}
+
+.last_info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #8e8e8e;
+	margin: 10px auto;
+	cursor: default;
+}
+
+.user_agreement {
+	margin-left: auto;
+	margin-right: 20px;
+	cursor: pointer;
+	&:hover {
+		color: black;
+	}
+}
+
+.privacy_policy {
+	cursor: pointer;
+	&:hover {
+		color: black;
+	}
+}
+
+.copyright:hover {
+	color: black;
+}
