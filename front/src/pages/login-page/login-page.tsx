@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./login-page.module.scss"
 import Link from 'next/link';
-import { LandingButton } from "@/shared/ui/buttons";
+import { LandingButton } from "@/shared/ui";
 
 export const LoginPage = () => {
     return (
