@@ -1,0 +1,85 @@
+.methodicWrapper {
+	width: 1400px;
+	background-color: white;
+	border-radius: 80px;
+}
+
+.methodicObjects {
+	width: 1160px;
+	display: grid;
+	grid-template: repeat(2, auto) / repeat(3, auto);
+	gap: 30px 29px;
+	margin: 90px auto 90px auto;
+	grid-auto-flow: column dense;
+}
+
+.imgContainerFirst {
+	width: 400px;
+	height: 313px;
+	background-color: #eaf2f5;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-column: span 2;
+}
+
+.imgContainerSecond {
+	width: 400px;
+	height: 290px;
+	background-color: #eaf2f5;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-column: span 2;
+}
+
+.textContOutFirst {
+	width: 730px;
+	height: 290px;
+	background-color: #eaf2f5;
+	border-radius: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	grid-column: span 4;
+}
+
+.textContOutSecond {
+	width: 730px;
+	height: 313px;
+	background-color: #eaf2f5;
+	border-radius: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	grid-column: span 4;
+}
+
+.textCont {
+	margin-left: 100px;
+	margin-top: 25px;
+}
+
+.support {
+	font-size: 32px;
+	font-weight: 100;
+}
+
+.question {
+	width: 435px;
+}
+
+.codeReview {
+	width: 549px;
+}
+
+.methodic {
+	font-size: 32px;
+	font-weight: 100;
+}
+
+.ourАpproach {
+	width: 502px;
+}

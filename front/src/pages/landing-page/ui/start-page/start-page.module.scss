@@ -1,0 +1,65 @@
+.startPage {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.programming {
+	width: 390px;
+	height: 408px;
+	order: 1;
+	margin-top: 61px;
+	position: relative;
+	left: 81px;
+	bottom: -1px;
+}
+
+.texts {
+	display: flex;
+	flex-direction: column;
+}
+
+.schoolPhraze {
+	width: 680px;
+	height: 140px;
+	font-size: 46px;
+	line-height: 46px;
+	margin-top: 70px;
+	padding-bottom: 30px;
+	color: #22253b;
+	quotes: '' ' ' '';
+}
+
+.testParagraph {
+	border-top: solid 1px #dedede;
+	width: 361px;
+	height: 46px;
+	font-size: 16px;
+	padding-top: 14px;
+	line-height: 23px;
+	color: #22253b;
+	padding-bottom: 2px;
+}
+
+.testButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 82px;
+	background-color: #f15525;
+	color: #fff;
+	width: 321px;
+	height: 70px;
+	cursor: pointer;
+	font-size: 20px;
+	transition: 0.3s;
+	text-decoration: none;
+	&:hover {
+		background-color: #38bff2;
+		transform: scale(1.1);
+	}
+	& .arrowUp {
+		padding-left: 10px;
+		width: 19px;
+	}
+}
