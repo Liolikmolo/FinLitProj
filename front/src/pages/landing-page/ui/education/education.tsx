@@ -1,9 +1,5 @@
 import React from 'react';
 import styles from './education.module.scss';
-import Image from 'next/image';
-import macbook from '@/shared/assets/icons/macbook.svg';
-import shadow from '@/shared/assets/images/macbook-shadow.svg';
-import playButton from '@/shared/assets/icons/play-button.svg';
 // import arrowUp from '@/shared/assets/icons/arrowUp.svg';
 import { LandingButton } from '@/shared/ui';
 
@@ -17,22 +13,6 @@ export const Education = () => {
 					платформу для обучения финансовой грамоте. На ней вы можете не только
 					изучать теорию, но и выполнять интерактивные практические задания.
 				</p>
-				<div className={styles.video}>
-					<Image className={styles.macbook} src={macbook} alt="macbook-image" />
-					<Image
-						className={styles.macbookShadow}
-						src={shadow}
-						alt="macbook-shadow-image"
-					/>
-					<button className={styles.playButton}>
-						<Image
-							className={styles.playButtonImage}
-							src={playButton}
-							alt="macbook-play-button"
-						/>
-					</button>
-					<h3 className={styles.lookVideo}>Посмотреть видео</h3>
-				</div>
 				<div className={styles.top3}>
 					<div className={styles.top}>
 						<h1 className={styles.num}>01</h1>
