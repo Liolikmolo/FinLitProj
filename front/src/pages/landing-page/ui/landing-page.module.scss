@@ -13,3 +13,10 @@
 	max-width: 1160px;
 	margin: 0 auto;
 }
+
+@media (max-width: 1430px) {
+	.wrapper {
+		background: none;
+		background-color: #f8f8f8;
+	}
+}
