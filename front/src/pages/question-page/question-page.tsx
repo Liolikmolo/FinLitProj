@@ -4,6 +4,7 @@ import React from 'react';
 // import prisma from '@/lib/prisma';
 import { QuestionTab } from '@/entities/question-tab/ui/question-tab';
 import styles from './question-page.module.scss';
+import { FooterNav } from '@/shared/ui';
 
 export const QuestionPage = () => {
 	// const data = await prisma.question.findMany();
@@ -19,6 +20,9 @@ export const QuestionPage = () => {
 			<h4 className={styles.numOfQuestion}>Вопрос №1</h4>
 			<h3 className={styles.questionUnderNum}>question</h3>
 			<QuestionTab />
+			<footer className={styles.footer}>
+				<FooterNav />
+			</footer>
 		</div>
 	);
 };

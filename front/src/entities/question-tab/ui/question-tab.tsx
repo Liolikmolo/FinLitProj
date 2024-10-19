@@ -2,7 +2,6 @@ import React from 'react';
 import prisma from '@/lib/prisma';
 import styles from './question-tab.module.scss';
 import { ProgressBar } from '@/features';
-import { FooterNav } from '@/shared/ui';
 
 export const QuestionTab = async () => {
 	const answers = await prisma.answer.findMany();
@@ -25,9 +24,6 @@ export const QuestionTab = async () => {
 					);
 				})}
 			</div>
-			<footer className={styles.footer}>
-				<FooterNav />
-			</footer>
 		</div>
 	);
 };
