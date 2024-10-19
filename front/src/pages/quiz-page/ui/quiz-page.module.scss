@@ -26,6 +26,7 @@
 	justify-content: flex-start;
 	align-items: center;
 	margin-bottom: 30px;
+
 	& span {
 		display: flex;
 		justify-content: center;
@@ -36,14 +37,18 @@
 		border: 1px solid #000;
 		border-radius: 50%;
 	}
-	& .link {
-		color: #fff;
-		text-decoration: none;
-	}
+	
 	& .landing {
 		margin-top: 20px;
 		font-size: 24px;
 		width: 80px;
+		text-decoration: none;
+	}
+}
+
+.start_content {
+	& .link {
+		color: #fff;
 		text-decoration: none;
 	}
 }
