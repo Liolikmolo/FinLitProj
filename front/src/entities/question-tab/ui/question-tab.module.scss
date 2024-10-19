@@ -1,11 +1,7 @@
 .questionTab {
-  width: 87.5%;
+  width: 100%;
   border: none;
   border-radius: 1%;
-}
-
-.header {
-  margin-bottom: 5px;
 }
 
 .answers {
@@ -13,31 +9,40 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
 
-.answer {
-  padding: 3px;
-  margin: 10px;
-  border: none;
-  border-radius: 40px;
-  width: 40%;
-  height: 200px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 18px;
-  background: #d4d4d4;
-  transition: 0.2s;
-  &:hover {
-    background: #ffb04e;
+  @media (max-width: 768px) {
+    flex-direction: column;
   }
-  & .clicked {
-    list-style-type: disc;
-    background: #ffb04e;
-  }
-  & ul {
-    list-style-type: circle;
-  }
-  &:hover ul {
-    list-style-type: disc;
+
+  & .answer {
+	padding: 3px;
+	margin: 10px;
+	border: none;
+	border-radius: 40px;
+	width: 35%;
+	height: 200px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	background: #d4d4d4;
+	transition: 0.2s;
+	&:hover {
+	  background: #ffb04e;
+	}
+	& .clicked {
+	  list-style-type: disc;
+	  background: #ffb04e;
+	}
+	& ul {
+	  list-style-type: circle;
+	}
+	&:hover ul {
+	  list-style-type: disc;
+	}
+
+	@media (max-width: 768px) {
+		width: 90%;
+		height: fit-content;
+	}
   }
 }
