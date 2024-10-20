@@ -24,10 +24,10 @@ export const Header = () => {
 				</li>
 			</ul>
 			<div className={styles.buttons}>
-				<Link href="/registrationPage">
+				<Link href="/registration">
 					<button className={styles.registrationButton}>Регистрация</button>
 				</Link>
-				<Link href="/loginPage">
+				<Link href="/login">
 					<button className={styles.loginButton}>
 						<Image src={arrow} className={styles.arrow} alt="arrow" /> Войти
 					</button>
