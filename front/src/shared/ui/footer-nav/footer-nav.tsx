@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import styles from './footer-nav.module.scss';
-import { QuestFetch } from '@/app/api/question/route';
+import { QuestFetch } from '@/pages/question-page/question-fetch';
 
 export const FooterNav = () => {
 	const check = () => {
