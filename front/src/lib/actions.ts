@@ -8,7 +8,7 @@ export const authenticate = async (
 		await signIn('credentials', formData);
 	} catch (error) {
 		if (error) {
-			switch (error.type) {
+			switch (error) {
 				case 'CredentialsSignin':
 					return 'Invalid credentials';
 

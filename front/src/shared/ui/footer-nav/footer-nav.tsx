@@ -1,35 +1,18 @@
+'use client';
 import React from 'react';
 import styles from './footer-nav.module.scss';
-import prisma from '@/lib/prisma';
+import { QuestFetch } from '@/pages/question-page/question-fetch';
 
-export const FooterNav = async () => {
-	const questions = await prisma.question.findMany();
-	const ids = questions.map((item) => item.id);
-	let currIn = 0;
-
-	const [answers] = await prisma.answer.findMany({
-		where: { id: ids[currIn] },
-	});
-
-	const onNextClick = () => {
-		currIn = (currIn + 1) % ids.length;
-		return ids[currIn];
-	};
-
-	const onPrevClick = () => {
-		currIn = (currIn - 1 + ids.length) % ids.length;
-		return ids[currIn];
-	};
-
+export const FooterNav = () => {
 	const check = () => {
-		const chekedAnsw = answers.correct;
-		if (chekedAnsw) {
-			return 'true';
-		} else {
-			return 'false';
-		}
+		QuestFetch().then(check);
 	};
-
+	const onPrevClick = () => {
+		QuestFetch().then(onPrevClick);
+	};
+	const onNextClick = () => {
+		QuestFetch().then(onNextClick);
+	};
 	return (
 		<div className={styles.footerContainer}>
 			<a className={styles.checkAnswer} onClick={check}>
