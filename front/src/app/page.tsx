@@ -1,10 +1,12 @@
+import { SessionProvider } from 'next-auth/react';
+import { AppProps } from 'next/app';
 import { Landing } from '@/pages/landing-page';
 
-const Home = () => {
+const Home = ({ pageProps }: AppProps) => {
 	return (
-		<>
-			<Landing />
-		</>
+		<SessionProvider>
+			<Landing {...pageProps} />
+		</SessionProvider>
 	);
 };
 
