@@ -12,6 +12,10 @@ export const QuestionPage = () => {
 	// 	return item.content;
 	// });
 
+	// const questions = prisma.question.findMany();
+	// const [questionIndex, setQuestionIndex] = useState(0);
+	// let currentQuestion = questions[questionIndex];
+
 	return (
 		<div className={styles.container}>
 			<a href="/" className={styles.exit}>

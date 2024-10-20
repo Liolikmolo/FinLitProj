@@ -7,6 +7,8 @@ export const ProgressBar = async () => {
 		// where: { quizId: '5a34035e-85be-4ba6-b3' },
 	});
 
+	/* questionIndex */
+
 	return (
 		<div className={styles.barContainer}>
 			<div className={styles.progress_bar}>

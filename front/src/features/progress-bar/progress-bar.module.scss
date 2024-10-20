@@ -28,5 +28,9 @@
       bottom: 20px;
       cursor: default;
     }
+
+    @media (max-width: 768px) {
+      width: 90%;
+    }
   }
 }

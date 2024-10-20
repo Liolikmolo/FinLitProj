@@ -6,6 +6,10 @@ import { ProgressBar } from '@/features';
 export const QuestionTab = async () => {
 	const answers = await prisma.answer.findMany();
 
+	/* const filteredAnswers = answers.filter(
+		(answer) => answers.question_id === currentQuestion.id
+	);  */
+
 	return (
 		<div className={styles.questionTab}>
 			<main className={styles.main}>
