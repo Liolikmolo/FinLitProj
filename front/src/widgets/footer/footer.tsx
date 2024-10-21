@@ -22,7 +22,7 @@ export const Footer = () => {
 						знаете какую-то часть материала. Только так мы можем гарантировать,
 						что вы получите все знания, предусмотренные учебной программой.
 					</p>
-					<LandingButton width={311} height={70} fontSize={20}>
+					<LandingButton width={311} height={70} fontSize={20} href={'/quiz'}>
 						Начать обучение
 					</LandingButton>
 				</div>

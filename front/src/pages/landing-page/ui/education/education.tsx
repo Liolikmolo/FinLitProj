@@ -42,7 +42,7 @@ export const Education = () => {
 					</div>
 				</div>
 				<div className={styles.startEducation}>
-					<LandingButton fontSize={18} width={249} height={70}>
+					<LandingButton fontSize={18} width={249} height={70} href={'/quiz'}>
 						Начать обучение
 					</LandingButton>
 					<p className={styles.testStartText}>
