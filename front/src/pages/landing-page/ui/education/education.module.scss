@@ -88,12 +88,6 @@
 	}
 }
 
-.testStartText {
-	width: 214px;
-	font-size: 14px;
-	line-height: 18px;
-}
-
 .startEducation {
 	display: flex;
 	justify-content: space-around;
@@ -102,4 +96,10 @@
 	width: 538px;
 	height: 93px;
 	border-radius: 110px;
+
+	& .testStartText {
+		width: 214px;
+		font-size: 14px;
+		line-height: 18px;
+	}
 }

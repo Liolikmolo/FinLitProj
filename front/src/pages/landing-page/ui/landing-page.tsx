@@ -10,7 +10,7 @@ export const Landing = () => {
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.objects}>
-				<Header />
+				<Header backgroundColor='#fff'/>
 				<StartPage />
 			</div>
 			<Knowledge />

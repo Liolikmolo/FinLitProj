@@ -19,10 +19,10 @@ export const FooterNav = () => {
 				Проверить
 			</a>
 			<a className={styles.prevQuestion} onClick={onPrevClick}>
-				← Предыдущий вопрос
+			← <span>Предыдущий вопрос</span>
 			</a>
 			<a className={styles.nextQuestion} onClick={onNextClick}>
-				Следующий вопрос →
+			<span>Следующий вопрос</span> →
 			</a>
 		</div>
 	);
