@@ -11,7 +11,7 @@ export const QuestionTab = async () => {
 	return (
 		<div className={styles.questionTab}>
 			<h4 className={styles.numOfQuestion}>{question?.content}</h4>
-			<h3 className={styles.questionUnderNum}></h3>
+			{/* <h3 className={styles.questionUnderNum}></h3> */}
 			<main className={styles.main}>
 				<ProgressBar />
 			</main>
