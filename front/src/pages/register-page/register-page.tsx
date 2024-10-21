@@ -26,9 +26,11 @@ export const RegisterPage = () => {
                 <h2 className={styles.welcome}>
                     Добро пожаловать!
                 </h2>
-                <LandingButton width={200} height={80} fontSize={20}>
-                    Подтвердить
-                </LandingButton>
+                <div className={styles.confirm}>
+                    <LandingButton width={200} height={80} fontSize={20} href={'/'}>
+                        Подтвердить
+                    </LandingButton>
+                </div>
             </form>
         </div>
     );
